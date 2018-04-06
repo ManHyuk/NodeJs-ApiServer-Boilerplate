@@ -7,6 +7,7 @@ let pool;
 /*******
  DB Connection
  *******/
+exports.pool;
 exports.createDBPool= (connectionLimit) => {
   this.pool = mysql.createPool({
       "host" : "localhost",
