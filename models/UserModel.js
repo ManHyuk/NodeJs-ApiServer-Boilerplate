@@ -1,7 +1,7 @@
 'use strict';
 
-const DBConfig = require('../config/config');
-const pool = DBConfig.pool;
+const config = require('../config/config');
+const pool = config.pool;
 
 
 exports.signup = () => {
