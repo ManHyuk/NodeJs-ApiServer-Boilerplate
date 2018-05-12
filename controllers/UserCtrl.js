@@ -21,7 +21,7 @@ exports.signin = async (req, res, next) => {
 
   try {
 
-    result = await userModel.login();
+    result = await userModel.signin();
 
   } catch (error) {
     return next(error);

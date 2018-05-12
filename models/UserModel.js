@@ -18,7 +18,7 @@ exports.signup = () => {
   })
 };
 
-exports.login = () => {
+exports.signin = () => {
   return new Promise((resolve, reject) => {
     const sql = ``;
 
